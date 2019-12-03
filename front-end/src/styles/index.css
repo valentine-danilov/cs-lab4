@@ -1,0 +1,68 @@
+.container {
+    max-width: 500px;
+}
+
+.border-top {
+    border-top: 1px solid #e5e5e5;
+}
+
+.border-bottom {
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.border-top-gray {
+    border-top-color: #adb5bd;
+}
+
+.box-shadow {
+    box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+.lh-condensed {
+    line-height: 1.25;
+}
+
+body {
+    color: #404E67;
+    background: #F5F7FA;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.custom-button {
+    float: left;
+    height: 30px;
+    font-weight: bold;
+    font-size: 12px;
+    text-shadow: none;
+    min-width: 120px;
+    margin-top: 5px;
+    margin-right: 5px;
+    border-radius: 50px;
+    line-height: 13px;
+}
+
+.custom-textarea {
+    max-width: 500px;
+    width: 500px;
+    height: 400px;
+    resize: none;
+}
+
+.keyarea {
+    margin-top: 5px;
+    max-width: 470px;
+    width: 470px;
+    max-height: 300px;
+    height: 300px;
+    resize: none;
+    pointer-events: none;
+}
+
+.vertical-divider {
+    border-left: 1px solid #38546d;
+    border-right: 1px solid #16222c;
+    height: 80px;
+    position: absolute;
+    right: 249px;
+    top: 10px;
+}
